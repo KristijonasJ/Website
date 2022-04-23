@@ -1,0 +1,171 @@
+body {
+    background: url(https://www.gensh.in/wallpaper/genshin/genshin_12_4K.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    font-family: Arial;
+}
+
+.wrapper {
+    margin: 55px auto 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #3a3a3a;
+    overflow: auto;
+    padding-bottom: 1%;
+}
+
+@media only screen and (min-width: 1024px){
+    .wrapper {
+        width: 1004px;
+    }
+}
+
+.header {
+    background-image: linear-gradient(to right,rgba(29,233,182,0.5),rgba(29,233,182,0.5)),linear-gradient(to left,rgba(29,233,182,0) 200px,#1de9b6 430px),url(Community-header-background.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: relative;
+}
+
+.headerimg {
+    float: left;
+    height: 65px;
+    margin: 20px 0 20px 20px;
+    max-width: 250px;
+    width: auto;
+}
+
+.content {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.content-separator {
+    border: 0;
+    height: 1px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    background-color: #bfbfbf;
+}
+
+.grid-container {
+    background: #2a3d66;
+    padding-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+.grid-container div:hover{
+    opacity: 0.7;
+}
+
+.grid-cell {
+    flex: 0 0 100%;
+    margin-bottom: 15px;
+    width: 320px;
+    height: 270px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 800px){
+    .grid-cell {
+        flex: 0 0 50%;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .grid-cell {
+        flex: 0 0 32%;
+    }
+}
+
+.grid-cell:nth-child(1) {
+    background:url(https://static1.srcdn.com/wordpress/wp-content/uploads/2020/10/diluc-genshin-impact-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.grid-cell:nth-child(2){
+    background:url(https://danbooru.donmai.us/data/__venti_genshin_impact_drawn_by_zhongwu_chahui__76d2542d0f67d4e5cf52e89974c8f77b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.grid-cell:nth-child(3){
+    background:url(https://www.gamosaurus.com/wp-content/uploads/Independant/Genshin-Impact/Vignettes/Personnages/vignette-genshin-impact-jean-build-equipement-comment-jouer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.grid-cell:nth-child(4){
+    background:url(https://noisypixel.net/wp-content/uploads/2020/09/Genshin-Impact-2-800x445.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.grid-cell:nth-child(5){
+    background:url(https://gamespot1.cbsistatic.com/uploads/screen_kubrick/1552/15524586/3751356-genshin-impact-mihoyo-open-world-rpg-role-playing-ps4-nintendo-switch-pc-ios-android-new-update-klee-gacha-banner-wishes-primogems.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.grid-cell:nth-child(6){
+    background:url(https://upload-os-bbs.mihoyo.com/upload/2020/09/01/1067130/4313c996fc97d656a7a53086abbfa4ff_6116114027088475923.png?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.grid-cell:nth-child(7){
+    background:url(https://i1.wp.com/kakuchopurei.com/wp-content/uploads/2020/09/Qi-QI.jpg?resize=632%2C354&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.grid-cell:nth-child(8){
+    background:url(https://static.zerochan.net/Genshin.Impact.full.3085170.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.grid-cell:nth-child(9){
+    background:url(https://i0.wp.com/nintendosoup.com/wp-content/uploads/2020/03/Genshin-Impact_2020_03-16-20_Top.jpg?resize=600%2C337&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.table {
+    border-style: solid;
+    border-color: rgb(191, 191, 191);
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+    display: table;
+    max-width: 300px;
+}
+
+.pfp {
+    float: right;
+}
+
+.br {
+    padding-bottom: 1px;
+    border-style: solid;
+    border-color: #bfbfbf;
+    border-width: 1px;
+}
